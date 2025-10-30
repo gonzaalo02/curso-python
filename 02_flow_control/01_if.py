@@ -105,3 +105,7 @@ print("\nLa condicion ternaria")
 
 # es una forma concisa de un if-else en una linea de codigo
 # [código si cumple la condicion] if [condición] else [código si no cumple la condición]
+
+edad = 17
+mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
+print(mensaje)
