@@ -68,7 +68,7 @@ print("\nValores del diccionario persona:")
 print(persona.values())  # dict_values(['midudev', [7, 8, 10], {'twitter': '@midudev', 'instagram': '@midudev', 'facebook': 'midudev'}])
 
 # obtener todas las claves
-print("\Items")
+print("\nItems")
 print(persona.items())
 
 for key, value in persona.items():
